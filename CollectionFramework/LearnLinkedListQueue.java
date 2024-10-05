@@ -12,7 +12,7 @@ public class LearnLinkedListQueue{
         System.out.println(queue);
         System.out.println(queue.peek());
         System.out.println(queue.isEmpty());
-queue.clear();
+         queue.clear();
         System.out.println(queue.isEmpty());
         System.out.println(queue.remove());//throws exception
     }
