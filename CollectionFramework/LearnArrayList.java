@@ -6,10 +6,9 @@ public class LearnArrayList {
     public static void main(String[] args){
         List<Integer> list=new ArrayList<>();
         List<Integer> newList=new ArrayList<>();
-
         System.out.println(newList.add(100));
         System.out.println(newList.add(90));
-
+        int maximum=Integer.MIN_VALUE;
         System.out.println(list.add(1));
         System.out.println(list.add(2));
         System.out.println(list.add(3));
