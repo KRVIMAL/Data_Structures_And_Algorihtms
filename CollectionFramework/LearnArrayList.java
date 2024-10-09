@@ -1,11 +1,13 @@
 package CollectionFramework;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 public class LearnArrayList {
     public static void main(String[] args){
         List<Integer> list=new ArrayList<>();
         List<Integer> newList=new ArrayList<>();
+        Collections.sort(newList);
         System.out.println(newList.add(100));
         System.out.println(newList.add(90));
         int maximum=Integer.MIN_VALUE;
