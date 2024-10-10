@@ -29,6 +29,7 @@ public class BonAppetit_Problem{
             System.out.println("Bon Appetit");
         }else{
             System.out.println(b-actual);
+            System.out.println("b");
         }
     }
 }
