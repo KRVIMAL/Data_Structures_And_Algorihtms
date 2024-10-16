@@ -52,5 +52,6 @@ public class AppleAndOranges {
         }
         System.out.println(applesCount);
         System.out.println(orangesCount);
+//        System.out.println(orangesCount);
     }
 }
