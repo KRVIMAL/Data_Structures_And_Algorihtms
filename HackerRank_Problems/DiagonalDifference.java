@@ -42,6 +42,7 @@ public class DiagonalDifference {
         }
         else {
             return secondaryDiagonal-primaryDiagonal;
+//            System.out.println(klahsfd);
         }
     }
 }
