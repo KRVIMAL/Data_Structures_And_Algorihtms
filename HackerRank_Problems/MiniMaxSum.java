@@ -17,7 +17,6 @@ public class MiniMaxSum {
 
     }
     public static void miniMaxSum(ArrayList<Long>arr){
-        System.out.println(arr);
         Long sum= 0L;
         for(int i=0;i<arr.size();i++){
             sum+=arr.get(i);
