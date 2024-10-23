@@ -12,14 +12,12 @@ public class FrequencyCounter {
             list.add(sc.nextInt());
         }
         int numberOfQueries=sc.nextInt();
-        ArrayList<Integer>queryList=new ArrayList<>();
+
         for(int i=0;i<numberOfQueries;i++){
-            queryList.add(sc.nextInt());
-        }
-        for(int i=0;i<numberOfQueries;i++){
+            int query=sc.nextInt();
             int count=0;
             for(int j=0;j<n;j++){
-                if(list.get(i)==queryList.get(i)){
+                if(list.get(j)==query){
                     count++;
                 }
             }
