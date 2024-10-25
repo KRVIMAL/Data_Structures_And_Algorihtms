@@ -21,16 +21,13 @@ public class TheBirthDayProblem {
     public static int birthday(ArrayList<Integer> s, int d, int m) {
         int count = 0;
 
-        // Loop through the chocolate bar array
         for (int i = 0; i <= s.size() - m; i++) {
             int sum = 0;
 
-            // Sum the subarray of length `m`
             for (int j = 0; j < m; j++) {
                 sum += s.get(i + j);
             }
 
-            // Check if the sum matches Ron's birth day
             if (sum == d) {
                 count++;
             }
