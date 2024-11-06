@@ -19,8 +19,8 @@ public class BreakingBestAndWorstRecords {
         int lowestCount=0;
 
         ArrayList<Integer> result=new ArrayList<>();
-        int highest= scores.get(0);
-        int lowest= scores.get(0);
+        int highest= scores.getFirst();
+        int lowest= scores.getFirst();
 
         for (Integer score : scores) {
             if (score > highest) {
