@@ -1,28 +1,27 @@
 package Hashing;
+import java.util.*;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
-public class FrequencyCounter {
-    public static void main(String[] args) {
+public class FrequencyCounter{
+    public static <Hashmap> void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        ArrayList<Integer>list=new ArrayList<>(n);
+        int arr[]=new int[n];
         for(int i=0;i<n;i++){
-            list.add(sc.nextInt());
-        }
-        int numberOfQueries=sc.nextInt();
-
-        for(int i=0;i<numberOfQueries;i++){
-            int query=sc.nextInt();
-            int count=0;
-            for(int j=0;j<n;j++){
-                if(list.get(j)==query){
-                    count++;
-                }
-            }
-            System.out.println(count);
+            arr[i]=sc.nextInt();
         }
 
+        HashMap<Integer, Integer> result=frequency(arr);
+        System.out.println(result+"result");
+    }
+
+    public static HashMap<Integer,Integer> frequency(int[] arr){
+
+       HashMap<Integer,Integer> mp=new HashMap<>();
+//        for(int i=0;i<arr.length;i++){
+//            int g=mp.getOrDefault(arr[i],0);
+//            mp.put(arr[i],g+1);
+//        }
+
+        return mp;
     }
 }
